@@ -39,7 +39,7 @@ export default function Home() {
           toujours été intéressée par la tech et l’expérience utilisateur. Mon appétence pour la
           création ne m’ayant jamais quittée, je souhaite désormais travailler dans le développement
           web et le back-end afin d’élargir mes connaissances et compétences dans le monde
-          digital ! Youpi !!!
+          digital !
         </p>
       </div>
 

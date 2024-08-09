@@ -32,4 +32,19 @@
     }
 }
 
-@media screen and (max-width: $breakpoint) {}
+@media screen and (max-width: $breakpoint) {
+    .footer {
+        .text-box {
+            gap:10px;
+
+            p {
+                @include font(38px, 400);
+            }
+    
+            .footer-logo {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}

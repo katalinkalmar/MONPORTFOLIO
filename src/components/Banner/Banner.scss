@@ -38,13 +38,27 @@
             color: $text-color;
             text-decoration: none;
         }
-
-        ul {
-            display: flex;
-            list-style-type: none;
-            margin: 0;
-        }
     }
 }
 
-@media screen and (max-width: $breakpoint) {}
+@media screen and (max-width: $breakpoint) {
+    .banner {
+        nav {
+            flex-direction: column;
+            gap: 1em;
+            @include font(1.25em, 500);
+            background-color: #4A4A4A;
+            width: 100%;
+            padding: 2% 0;
+            height: auto;
+        }
+    }    
+}
+
+@media screen and (max-width: $breakpoint_phone) {
+    .banner {
+        nav {
+            padding: 5% 0;
+        }
+    }
+}

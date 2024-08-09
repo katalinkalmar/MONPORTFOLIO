@@ -52,4 +52,23 @@
     }
 }
 
-@media screen and (max-width: $breakpoint) {}
+@media screen and (max-width: $breakpoint_phone) {
+    .body-fiche {
+        gap: 25px;
+
+        .box-logo {
+            padding: 15px 5px;
+            img {
+                height: 100%;
+                max-width: 90%;
+            }
+        }
+
+        .box-contenu {
+            width: 100%;
+            padding: 35px 45px;
+            border-radius: 25px;
+            overflow-wrap: break-word;
+        }
+    }
+}

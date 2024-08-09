@@ -3,6 +3,7 @@
     background-color: $text-color;
     border-radius: 25px;
     aspect-ratio: 0.75;
+    width: 99%;
     
 
     .box-image {
@@ -16,13 +17,12 @@
     .box-logo {
         display: flex;
         align-items: center;
-        padding-left: 30px;
+        padding-left: 10%;
         height: 20%;
-        
 
         img {
             max-height: 50%;
-            max-width: 80%;
+            max-width: 70%;
         }
     }
 }

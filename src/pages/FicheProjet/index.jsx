@@ -13,14 +13,17 @@ export default function FichesLogement() {
         (projet) => projet.id === id
     )
 
+    if (!(ficheProjet)) {
+        return (<Navigate replace to="/idnotfound" />)
+    }
+
     // https://create-react-app.dev/docs/using-the-public-folder/
     const logo = process.env.PUBLIC_URL + "/images/" + `${ficheProjet.logo_du_site}`
     const image = process.env.PUBLIC_URL + "/images/" + `${ficheProjet.image_du_site}`
 
-    return (<>{ficheProjet ? (
-
+    return (
         <div className="body-fiche">
-            
+
             <div className="box-logo">
                 <img src={logo} className="fiche-logo" />
             </div>
@@ -38,8 +41,7 @@ export default function FichesLogement() {
                 </div>
 
             </div>
-
+            
         </div>
-
-    ) : (<Navigate replace to="/idnotfound" />)}</>)
+    )
 }

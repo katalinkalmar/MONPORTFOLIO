@@ -1,62 +1,84 @@
 .body-projets {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1240px;
     gap: 50px;
-    
-    .box-projets {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
 
-        .galerie {
-            display: grid;
-            width: 100%;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 50px;
-            grid-auto-rows: auto;
-        }
-
-        span {
-            @include font(32px, 500);
-            color: $text-color;
-        }
+    span {
+        @include font(2.5em, 500);
+        color: $text-color;
     }
+
+    .galerie {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+        grid-auto-rows: auto;
+    }
+
 
     .box-contact {
         display: flex;
-        padding-top: 50px;
-        flex-direction: column;
-        color: $text-color;
-        align-items: center;
-        gap: 25px;
-
-        span {
-            @include font(32px, 500)
-        }
+        width: 100%;
+        justify-content: center;
+        gap: 5vw;
+        height: 5em;
 
         .box-contact-info {
             display: flex;
-            gap: 50px;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
 
-            span,
-            a {
-                @include font(24px, 500);
+            background-color: $main-color;
+            border-radius: 25px;
+
+            a, span {
+                @include font(1.2em, 500);
                 color: $text-color;
             }
-
-            .box-contact-mail,
-            .box-contact-github {
-                display: flex;
-                flex-direction: column;
-                padding: 25px 45px;
-                background-color: $main-color;
-                border-radius: 25px;
-            }
         }
-
-
     }
 }
 
-@media screen and (max-width: $breakpoint) {}
+@media screen and (max-width: $breakpoint) {
+    .body-projets {
+        padding: 0 2em;
+        span {
+            font-size: 2em;
+        }
+    
+        .galerie {
+            grid-template-columns: 1fr 1fr;
+        }
+    
+        .box-contact {
+            flex-direction: column;
+            gap: 5vw;
+            height: auto;
+    
+            .box-contact-info {
+                background-color: $main-color;
+                border-radius: 10px;
+                padding: 1em 0;
+
+                a, span {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint_phone) {
+    .body-projets {
+        padding: 0 1em;
+
+        .galerie {
+            grid-template-columns: 1fr;
+        }
+    }
+}

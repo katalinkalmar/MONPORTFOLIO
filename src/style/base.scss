@@ -25,4 +25,11 @@ body {
   }
 }
 
-@media screen and (max-width: $breakpoint) {}
+@media screen and (max-width: $breakpoint) {
+  .App {
+    main {
+      padding: 0 10px;
+    }
+  }
+
+}

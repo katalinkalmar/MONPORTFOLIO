@@ -17,9 +17,9 @@ export default function Banner() {
             </div>
 
             <nav>
-                <ul><Link to={"/"}>À propos</Link></ul>
-                <ul><Link to={"/projets"}>Projets</Link></ul>
-                <ul><HashLink to={"/projets#contact-section"}>Contact</HashLink></ul>
+                <Link to={"/"}>À propos</Link>
+                <Link to={"/projets"}>Projets</Link>
+                <HashLink to={"/projets#contact-section"}>Contact</HashLink>
             </nav>
         </div>
     )
