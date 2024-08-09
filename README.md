@@ -2,5 +2,7 @@
 ### https://katalinkalmar.github.io/
 
 ## Démarage du projet
-###npm install
-###npm start
+
+### npm install
+
+### npm start
