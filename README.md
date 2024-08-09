@@ -1,7 +1,7 @@
 ## Lien du projet
 ### https://katalinkalmar.github.io/
 
-## Démarage du projet
+## Démarrage du projet
 
 ### npm install
 
