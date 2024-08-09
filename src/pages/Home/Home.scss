@@ -1,0 +1,76 @@
+.body-home {
+    display: flex;
+    flex-direction: column;
+    color: $text-color;
+    align-items: center;
+    gap: 200px;
+
+    .box-perso {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 100px;
+
+        .box-photo {
+            margin-left: auto;
+
+            img {
+                width: 500px;
+                border-radius: 10px;
+            }
+        }
+
+        .box-metier {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            p {
+                @include font(36px, 500);
+                margin: 0;
+            }
+        }
+    }
+
+    .box-about {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            @include font(36px, 500)
+        }
+
+        p {
+            @include font(24px, 300)
+        }
+    }
+
+    .box-lien-projets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+
+        span {
+            @include font(36px, 500)
+        }
+
+        img {
+            height: 50px;
+        }
+    }
+
+    .box-competence {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px 100px;
+        grid-auto-rows: auto;
+
+        padding: 50px 50px;
+        background-color: $text-color;
+        border-radius: 25px;
+    }
+
+}
+
+@media screen and (max-width: $breakpoint) {}

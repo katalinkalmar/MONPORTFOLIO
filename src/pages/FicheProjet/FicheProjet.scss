@@ -1,0 +1,55 @@
+.body-fiche {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+
+    .box-logo {
+        display: flex;
+        width: 100%;
+        max-height: 150px;
+        padding: 25px 100px;
+        background-color: $text-color;
+        border-radius: 25px;
+        justify-content: center;
+
+        img {
+            height: 100%
+        }
+    }
+
+    .fiche-image {
+        border-radius: 25px;
+        width: 100%;
+        max-height: 700px;
+        object-fit: cover;
+    }
+
+    .box-contenu {
+        display: flex;
+        flex-direction: column;
+        padding: 35px 45px;
+        background-color: $text-color;
+        border-radius: 25px;
+        gap: 50px;
+
+        .box-lien-projet {
+            color: $background-color;
+            @include font(20px, 500);
+
+            a {
+                color: $background-color;
+                text-decoration: none;
+            }
+        }
+
+        .box-description {
+            color: $background-color;
+            @include font(20px, 500);
+        }
+
+    }
+}
+
+@media screen and (max-width: $breakpoint) {}

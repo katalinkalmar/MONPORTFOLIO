@@ -1,0 +1,52 @@
+.body-error {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 40px 120px 40px;
+
+    .quatrecquatre {
+        color: $text-color;
+        @include font(260px, 700);
+        display: flex;
+        flex-direction: center;
+        margin: auto;
+        padding: 40px
+    }
+
+    .oups {
+        color: black;
+        @include font(22px, 500);
+        display: flex;
+        flex-direction: center;
+        padding: 70px 20px 70px 20px;
+        margin: auto;
+
+    }
+
+    .retour-accueil {
+        color: black;
+        @include font(18px, 500);
+        display: flex;
+        flex-direction: center;
+        padding: 70px 30px 70px 30px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: $breakpoint) {
+    .body-error {
+        gap: 113px;
+        padding: 113px 0;
+
+        .quatrecquatre {
+            @include font(96px, 700)
+        }
+
+        .oups {
+            color: $text-color;
+            text-align: center;
+        }
+
+    }
+}

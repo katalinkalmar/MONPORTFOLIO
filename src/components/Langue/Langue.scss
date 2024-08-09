@@ -1,0 +1,23 @@
+.box-langue {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .img-langue {
+        max-width: 95px;
+        max-height: 95px;
+    }
+
+    .box-etoile {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        img {
+            width: 30px;
+        }
+    }
+
+
+}

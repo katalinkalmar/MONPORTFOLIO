@@ -1,0 +1,50 @@
+[
+    {
+        "id": "booki",
+        "nom_projet": "Booki",
+        "decription_du_projet": "Le projet Booki m'a permis de me familiariser avec les outils de développement et expérimenter le HTML et le CSS dans un contexte professionnel.",
+        "lien_du_projet": "https://github.com/katalinkalmar/PROJET2",
+        "logo_du_site": "logo_projet2.svg",
+        "image_du_site": "projet2.jpg"
+    },
+    {
+        "id": "sophiebluel",
+        "nom_projet": "Sophie Bluel",
+        "decription_du_projet": "Avec le projet Sophie Bluel était j'ai pu voir toute la puissance de JavaScript, les interactions avec le back-end, les requêtes HTTP et le JSON. Il m'a permis de réaliser à quel point un site dynamique était complexe et captivant.",
+        "lien_du_projet": "https://github.com/katalinkalmar/PROJET_3",
+        "logo_du_site": "logo_projet3.svg",
+        "image_du_site": "projet3.jpg"
+    },
+    {
+        "id": "quenta",
+        "nom_projet": "Menu Maker Pour Quenta",
+        "decription_du_projet": "Le projet Menu Maker m'a permis de m'immerger dans une agence Web et faire le travail d'un Product Owner pour préparer et planifier le développement d'un site pour restaurateurs. J'ai fait connaissance de l'organisation Agile, du Sprint, de tous les métiers comme le Scrum master, les développeurs back-end et front-end et leur collaboration et de tous les outils : Kanban, Notion etc...",
+        "lien_du_projet": "https://sequoia-hat-46d.notion.site/MENU-MAKER-POUR-QUENTA-6d163b3aa2ed4edeb853191d0ffbfd82",
+        "logo_du_site": "logo_projet4.svg",
+        "image_du_site": "projet4.jpg"
+    },
+    {
+        "id": "ninacarducci",
+        "nom_projet": "Nina Carducci",
+        "decription_du_projet": "Le projet Nina Carducci m'a fait apprendre les Google Lighthouse, Chrome dev tools, Google Analytics, les microdonnées de Schema.org, le référencement SEO et les critères de l'accessibilité. Tout pour savoir comment créer un site bien référencé et accessible.",
+        "lien_du_projet": "https://github.com/katalinkalmar/PROJET_5",
+        "logo_du_site": "logo_projet5.svg",
+        "image_du_site": "projet5.jpg"
+    },
+    {
+        "id": "kasa",
+        "nom_projet": "Kasa",
+        "decription_du_projet": "Le projet Kasa m'a fait passer à une vitesse supérieure avec l'architecture React qui est complexe et fascinant. J'ai appris à créer les modules, naviguer entre les pages, créer du style avec SASS et avoir en somme un système complet et autonome.",
+        "lien_du_projet": "https://github.com/katalinkalmar/PROJET_6",
+        "logo_du_site": "logo_projet6.svg",
+        "image_du_site": "projet6.jpg"
+    },
+    {
+        "id": "monvieuxgrimoire",
+        "nom_projet": "Mon vieux grimoire",
+        "decription_du_projet": "Le projet Mon Vieux Grimoire m'a introduit dans le back-end qui m'a ravie car j'aimerais approfondir mes connaissances dans ce domaine. Créer une API, implémenter les chemins des requêtes d'authentification et de création d'objets sur un site puis apprendre à communiquer avec Mongo Db était passionnant.",
+        "lien_du_projet": "https://github.com/katalinkalmar/PROJET_7",
+        "logo_du_site": "logo_projet7.svg",
+        "image_du_site": "projet7.jpg"
+    }
+]

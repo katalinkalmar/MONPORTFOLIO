@@ -1,0 +1,83 @@
+.carrousel {
+    position: relative;
+    width: 100%;
+    height: 415px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.carrousel-inner {
+    overflow: hidden;
+}
+
+.carrousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+/*Les images qui ne sont pas actives sont cachées*/
+.carrousel-item.active~.carrousel-item {
+    visibility: collapse;
+}
+
+.carrousel-item.active {
+    visibility: visible;
+}
+
+.carrousel-control-prev,
+.carrousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    cursor: pointer;
+}
+
+.carrousel-control-prev {
+    left: 20px;
+}
+
+.carrousel-control-next {
+    right: 20px;
+}
+
+.carrousel-indicators {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    @include font(18px, 500);
+    color: white;
+}
+
+@media screen and (max-width: $breakpoint) {
+    .carrousel {
+        height: 255px;
+        border-radius: 10px;
+    }
+
+    .carrousel-control-prev,
+    .carrousel-control-next {
+        width: 24px;
+        height: 24px;
+    }
+
+    .carrousel-indicators {
+        visibility: collapse;
+    }
+}
