@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.55e4d2a2.css",
+    "main.js": "/react-gh-pages/static/js/main.9bf88637.js",
+    "static/media/photo_portfolio.JPG": "/react-gh-pages/static/media/photo_portfolio.3792c965c1851f5e3c31.JPG",
+    "static/media/bande.svg": "/react-gh-pages/static/media/bande.80ebc26f2af4ec232ce23a7a911aac6c.svg",
+    "static/media/BannerIMG.png": "/react-gh-pages/static/media/BannerIMG.540f7499f5e7d69cdb86.png",
+    "static/media/mongodb.svg": "/react-gh-pages/static/media/mongodb.71878b738f870a417c999759fb2368a8.svg",
+    "static/media/github.svg": "/react-gh-pages/static/media/github.7c5f8c05922fa324a5a533d0fd5a3837.svg",
+    "static/media/react.svg": "/react-gh-pages/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/nodejs.svg": "/react-gh-pages/static/media/nodejs.615ffbea9529ca7047ed8a912bfd94b2.svg",
+    "static/media/git.svg": "/react-gh-pages/static/media/git.6fcf736415e87c653a92dac2b42c6f13.svg",
+    "static/media/js.svg": "/react-gh-pages/static/media/js.1d3d28798f08ea1ed7cd47f812044c4f.svg",
+    "static/media/Kacsa.svg": "/react-gh-pages/static/media/Kacsa.d0cc9504a5c8bd29cd236ca8cbe24dee.svg",
+    "static/media/html.svg": "/react-gh-pages/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
+    "static/media/star.svg": "/react-gh-pages/static/media/star.4671d082409d4058a2ccf4c692f61f5e.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/arrow.svg": "/react-gh-pages/static/media/arrow.5a00987d4b62ea287af59eb2bdc8d7c6.svg",
+    "main.55e4d2a2.css.map": "/react-gh-pages/static/css/main.55e4d2a2.css.map",
+    "main.9bf88637.js.map": "/react-gh-pages/static/js/main.9bf88637.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55e4d2a2.css",
+    "static/js/main.9bf88637.js"
+  ]
+}
