@@ -19,7 +19,7 @@ export default function Projets() {
 
                 <div className="box-contact-info">
                     <span> Par mail :</span>
-                    <Link to="mailto::katalinkalmarpro@gmail.com" target="_blank">
+                    <Link to="mailto:katalinkalmarpro@gmail.com" target="_blank">
                         katalinkalmarpro@gmail.com
                     </Link>
                 </div>

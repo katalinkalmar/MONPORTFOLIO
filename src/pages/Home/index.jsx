@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import photo from "../../assets/photo_portfolio.JPG"
 import fleche from "../../assets/arrow.svg"
-import etoile from "../../assets/star.svg"
 import Langue from "../../components/Langue/Langue"
 
 import cssLogo from "../../assets/logo_competence/css.png"
@@ -44,14 +43,14 @@ export default function Home() {
       </div>
 
       <div className="box-competence">
-        <Langue src={htmlLogo} nbEtoile={3}/>
-        <Langue src={cssLogo} nbEtoile={3}/>
-        <Langue src={gitLogo} nbEtoile={3}/>
-        <Langue src={gitHubLogo} nbEtoile={3}/>
-        <Langue src={jsLogo} nbEtoile={2}/>
-        <Langue src={nodejsLogo} nbEtoile={2}/>
-        <Langue src={reactLogo} nbEtoile={2}/>
-        <Langue src={mongodbLogo} nbEtoile={2}/>
+        <Langue src={htmlLogo} nbEtoile={3} />
+        <Langue src={cssLogo} nbEtoile={3} />
+        <Langue src={gitLogo} nbEtoile={3} />
+        <Langue src={gitHubLogo} nbEtoile={3} />
+        <Langue src={jsLogo} nbEtoile={2} />
+        <Langue src={nodejsLogo} nbEtoile={2} />
+        <Langue src={reactLogo} nbEtoile={2} />
+        <Langue src={mongodbLogo} nbEtoile={2} />
       </div>
 
       <div className="box-lien-projets">

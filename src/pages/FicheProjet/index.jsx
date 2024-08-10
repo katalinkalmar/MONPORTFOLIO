@@ -4,7 +4,7 @@
 import { useParams, Navigate, Link } from "react-router-dom"
 import donneeProjets from "../../donnees/projets.json"
 
-export default function FichesLogement() {
+export default function FichesProjet() {
     // Je récupère l'id de la fiche projet présente dans l'url à l'aide du hook useParams.
     const { id } = useParams()
 
@@ -16,7 +16,7 @@ export default function FichesLogement() {
     if (!(ficheProjet)) {
         return (<Navigate replace to="/idnotfound" />)
     }
-
+    //récupération des images de manière dynamique du public
     // https://create-react-app.dev/docs/using-the-public-folder/
     const logo = process.env.PUBLIC_URL + "/images/" + `${ficheProjet.logo_du_site}`
     const image = process.env.PUBLIC_URL + "/images/" + `${ficheProjet.image_du_site}`
@@ -41,7 +41,7 @@ export default function FichesLogement() {
                 </div>
 
             </div>
-            
+
         </div>
     )
 }
