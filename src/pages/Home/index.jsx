@@ -20,7 +20,7 @@ export default function Home() {
       <div className="box-perso">
 
         <div className="box-photo">
-          <img src={photo} />
+          <img src={photo} alt="Photo de profil de Katalin Kalmar" />
         </div>
 
         <div className="box-metier">
@@ -43,14 +43,14 @@ export default function Home() {
       </div>
 
       <div className="box-competence">
-        <Langue src={htmlLogo} nbEtoile={3} />
-        <Langue src={cssLogo} nbEtoile={3} />
-        <Langue src={gitLogo} nbEtoile={3} />
-        <Langue src={gitHubLogo} nbEtoile={3} />
-        <Langue src={jsLogo} nbEtoile={2} />
-        <Langue src={nodejsLogo} nbEtoile={2} />
-        <Langue src={reactLogo} nbEtoile={2} />
-        <Langue src={mongodbLogo} nbEtoile={2} />
+        <Langue src={htmlLogo} nbEtoile={3} alt="Logo HTML" />
+        <Langue src={cssLogo} nbEtoile={3} alt="Logo CSS" />
+        <Langue src={gitLogo} nbEtoile={3} alt="Logo git" />
+        <Langue src={gitHubLogo} nbEtoile={3} alt="Logo gitHub" />
+        <Langue src={jsLogo} nbEtoile={2} alt="Logo JavaScript" />
+        <Langue src={nodejsLogo} nbEtoile={2} alt="Logo NodeJS" />
+        <Langue src={reactLogo} nbEtoile={2} alt="Logo React" />
+        <Langue src={mongodbLogo} nbEtoile={2} alt="Logo MongoDB" />
       </div>
 
       <div className="box-lien-projets">
