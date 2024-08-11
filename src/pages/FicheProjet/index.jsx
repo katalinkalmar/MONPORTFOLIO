@@ -18,17 +18,18 @@ export default function FichesProjet() {
     }
     //récupération des images de manière dynamique du public
     // https://create-react-app.dev/docs/using-the-public-folder/
-    const logo = process.env.PUBLIC_URL + "/images/" + `${ficheProjet.logo_du_site}`
-    const image = process.env.PUBLIC_URL + "/images/" + `${ficheProjet.image_du_site}`
+    const logo = `${process.env.PUBLIC_URL}/images/${ficheProjet.logo_du_site}`;
+    const image = `${process.env.PUBLIC_URL}/images/${ficheProjet.image_du_site}`;
+
 
     return (
         <div className="body-fiche">
 
             <div className="box-logo">
-                <img src={logo} className="fiche-logo" />
+                <img src={logo} className="fiche-logo" alt="" />
             </div>
 
-            <img src={image} className="fiche-image" />
+            <img src={image} className="fiche-image" alt="" />
 
             <div className="box-contenu">
 

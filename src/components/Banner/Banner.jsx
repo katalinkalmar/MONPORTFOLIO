@@ -10,10 +10,10 @@ export default function Banner() {
 
     return (
         <div className="banner">
-            <img src={bannerImg} className="banner-img"/>
+            <img src={bannerImg} className="banner-img" alt=""/>
 
             <div className="logo-box">
-                <img src={bannerLogo} className="banner-logo" onClick={() => navigate("/")}/>
+                <img src={bannerLogo} className="banner-logo" onClick={() => navigate("/")} alt=""/>
             </div>
 
             <nav>

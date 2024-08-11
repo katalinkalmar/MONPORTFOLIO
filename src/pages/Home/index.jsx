@@ -20,7 +20,7 @@ export default function Home() {
       <div className="box-perso">
 
         <div className="box-photo">
-          <img src={photo} alt="Photo de profil de Katalin Kalmar" />
+          <img src={photo} alt="Portrait de profil de Katalin Kalmar" />
         </div>
 
         <div className="box-metier">
@@ -55,7 +55,7 @@ export default function Home() {
 
       <div className="box-lien-projets">
         <span> Voir mon travail </span>
-        <img src={fleche} onClick={() => navigate("/projets")} />
+        <img src={fleche} onClick={() => navigate("/projets")} alt="" />
       </div>
 
     </div>
