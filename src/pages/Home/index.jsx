@@ -37,7 +37,7 @@ export default function Home() {
           de court-métrages j’ai décidé de me former au métier de développeuse front-end, ayant
           toujours été intéressée par la tech et l’expérience utilisateur. Mon appétence pour la
           création ne m’ayant jamais quittée, je souhaite désormais travailler dans le développement
-          web et le back-end afin d’élargir mes connaissances et compétences dans le monde
+          web le back-end afin d’élargir mes connaissances et compétences dans le monde
           digital !
         </p>
       </div>

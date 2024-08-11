@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
 import FicheProjet from "./pages/FicheProjet";
-import Projet from "./pages/projets";
+import Projet from "./pages/Projets";
 
 //ajout des composants communs à toutes les pages.
 
@@ -23,7 +23,7 @@ function App() {
 					<Route path="/" element={<Home />} />
 					<Route path="/projets" element={<Projet />} />
 					<Route path="*" element={<ErrorPage />} />
-					{/* Pour les fiches logement on passe l'id en paramètre*/}
+					{/* Pour les fiches projets on passe l'id en paramètre*/}
 					<Route path="/projets/:id" element={<FicheProjet />} />
 				</Routes>
 			</main>
