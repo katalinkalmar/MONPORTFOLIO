@@ -8,11 +8,11 @@ export default function FichesProjet() {
     // Je récupère l'id de la fiche projet présente dans l'url à l'aide du hook useParams.
     const { id } = useParams()
 
-    // On récupère les données du projet à l'aide de l'id dans le fichier json
+    // La fonction find permet de trouver le projet dont l'ID correspond à celui extrait de l'URL.
     const ficheProjet = donneeProjets.find(
         (projet) => projet.id === id
     )
-
+// Si aucun projet n'est trouvé on est redirigé vers une page d'erreur.
     if (!(ficheProjet)) {
         return (<Navigate replace to="/idnotfound" />)
     }
